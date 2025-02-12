@@ -45,10 +45,9 @@ A **Multi-Output Linear Regression model** was trained to predict **Revenue and 
 
 ## Error Analysis
 Based on validation using the test dataset:
+* The majority of conversion predictions fell within a reasonable error range, though some outliers exhibited higher variance.
 * 8 out of 30 test samples (27%) had a prediction error greater than 20% for conversions.
-The majority of conversion predictions fell within a reasonable error range, though some outliers exhibited higher variance.
-Revenue predictions showed greater variability, suggesting that external factors not captured in the dataset may influence revenue more than conversions.
-* Despite high overall accuracy, error rates were **higher in low-impression scenarios**, indicating potential areas for improvement.
+* Revenue predictions showed greater variability, suggesting that external factors not captured in the dataset may influence revenue more than conversions.
 
 ## Running the Model on Simulation Data
 The trained model is applied to a **simulation dataset** to evaluate predictions in a **real-world-like scenario**.
